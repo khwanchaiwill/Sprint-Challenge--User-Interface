@@ -252,5 +252,8 @@ body{
         width: 100%;
         border: 0.3rem;
     }
+    head{
+        border: 1rem;
+    }
 }
 
