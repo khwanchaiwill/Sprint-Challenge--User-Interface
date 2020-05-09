@@ -144,7 +144,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+/*my code go here*/
    
 body{
     width: 100%;
@@ -247,13 +247,238 @@ body{
     background-color: rgb(46, 137, 211);
     font-size: 1.5rem;
 }
+
+/* @media for responsive */
 @media(max-width: 800px){
     body{
         width: 100%;
-        border: 0.3rem;
+        line-height: 4;
+        font-size: 62.5%;
+        margin: 0rem;
+        padding: 0.3rem; 
+        border-top: 0.2rem;
+    
+    }   
+    
+     header{ 
+        font-size: 1.2rem;
+        width: 99%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+        margin: 0rem;
+        padding: 0rem;
+       
     }
-    head{
-        border: 1rem;
+    .about img{
+        width: 60%;
     }
+    .see a{
+        padding: 1.5rem;
+        border: 0rem;    
+       
+    }
+    .top-content{       
+        flex-direction: column;
+        font-size: 1.3rem;
+        margin: 0rem;
+        padding: 0rem;
+        line-height: 0.7rem;
+    }
+    .text-container{
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+        border: 0rem;
+        
+    }
+
+    .top-content .text-container {
+        width: 100%;
+       padding-left: 2rem;
+    }
+    
+.text-container h2{
+    font-size: 1.2rem;
+    line-height: 0.3;
+}
+.text-container p{
+    font-size: 1rem;
+}
+
+.middle-content .boxes{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    padding: 0 5rem;
+    border: 2rem;
+
+}
+
+.middle-content h2{
+   line-height: 2;
+}
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    width: 150px;
+    Height: 150px;    
+    
+    
+}
+.bottom-content {
+    display: flex;
+    margin:  0px;
+    justify-content: space-between;
+   
+ 
+}
+
+footer {
+    width: 80%;
+    background: black;
+    margin-left:  4rem;
+    
+}
+
+footer nav {
+    width: 90%;
+    display: flex;    
+    margin-left: 4rem;
+    align-items: space-between; 
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+/*responsive to 500px*/
+}
+@media(max-width: 500px){
+    body{       
+        width: 100%;
+        line-height: 4;
+        font-size: 62.5%;
+        margin: 0rem;
+        padding: 0.3rem; 
+        border-top: 0.2rem;    
+    }   
+
+    header{ 
+        font-size: 2.5rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        /* border: 1rem; */
+        margin-left: 15rem;
+        line-height: 1;
+    } 
+
+   
+ .about img{
+    width: 200px;
+    display: flex;
+    margin-left: 5rem;  
+ }
+
+.see{
+    font-size: 1.8rem;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin-left: 50%;     
+    line-height: 0.1;    
+    margin-top: 2rem;
+}
+
+.container{
+    width: 100;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 200px;
+    
+}
+
+    .top-content{   
+        width: 50%; 
+        display: flex; 
+        justify-content: center;
+        font-size: 1.7rem;
+        margin-left: 30%;        
+        line-height: 0.7rem; 
+       
+    }   
+
+.text-container h2{
+    font-size: 2rem;
+    line-height: 0.3;
+}
+
+.text-container p{
+    font-size: 1.5rem;
+}
+
+.middle-content .boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+    padding: 0 5rem;
+    border: 2rem;
+}
+
+.middle-content h2{
+   line-height: 2;
+   text-align: center;
+   font-size: 2rem;
+   margin-left: 20%;
+}
+
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    width: 150px;
+    Height: 150px;    
+    
+    
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    justify-content: center;
+    padding: 5rem;
+}
+   
+ .bottom-content{
+    border: 1rem;
+ }
+
+
+footer {
+   
+    width: 60%;
+    background: black;
+    margin-left:  20%;
+    font-size: 3rem; 
+    
+}
+
+footer nav {
+    width: 90%;
+    display: flex; 
+    flex-direction: column;   
+    align-items: space-between; 
+    font-size: 2rem;
+    padding: 0rem;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
 }
 
