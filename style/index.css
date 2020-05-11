@@ -204,14 +204,15 @@ header{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
+    margin-left: 5rem;
+    margin-right: 2rem;   
 }
 
 .container img{
-    width: 1070px; 
-    height: 200px;
-    margin-left: 5rem;
-    margin-right: 4rem;    
+    width: 100%; 
+    margin-left: 0rem;
+    margin-right: 0rem;    
 }
 
 .top-content {
@@ -594,7 +595,7 @@ footer nav {
     .text-container p{
         font-size: 1.5rem;
     }
-    
+
     .middle-content{
         border-bottom: 1px;
     }
